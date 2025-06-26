@@ -48,8 +48,6 @@ A backend server application for tracking and managing expenses. Built with Node
 
 | Method | Endpoint             | Description              |
 |--------|----------------------|--------------------------|
-| POST   | /api/auth/register   | Register a new user      |
-| POST   | /api/auth/login      | Login and get a token    |
 | GET    | /api/expenses        | Get all expenses         |
 | POST   | /api/expenses        | Add a new expense        |
 | PUT    | /api/expenses/:id    | Update an expense        |
