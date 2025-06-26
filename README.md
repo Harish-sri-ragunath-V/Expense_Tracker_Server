@@ -76,9 +76,6 @@ A backend server application for tracking and managing expenses. Built with Node
 Contributions, issues, and feature requests are welcome!  
 Feel free to check [issues page](https://github.com/Harish-sri-ragunath-V/Expense_Tracker_Server/issues).
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
