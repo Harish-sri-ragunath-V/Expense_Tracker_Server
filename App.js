@@ -10,8 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
 
-const MONGO_URI = 'mongodb+srv://rvharishsri:hari@cluster0.i370xk5.mongodb.net/expense?retryWrites=true&w=majority&appName=Cluster0';
-// const MONGO_URI = 'mongodb+srv://hariprasathg6380:hari@cluster0.psa2n7f.mongodb.net/expenses?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'Your MongoDB connection string.';
 
 mongoose.connect(MONGO_URI)
     .then(() => console.log("MongoDB Connected Successfully!"))
